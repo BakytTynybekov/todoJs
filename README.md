@@ -1,2 +1,1 @@
-
-https://github.com/BakytTynybekov/todoJs/index.html
+https://bakyttynybekov.github.io/todoJs/

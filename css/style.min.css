@@ -76,13 +76,12 @@ body {
   display: block;
   text-align: start;
   margin: 20px 0;
-  text-align: center;
   width: 100%;
 }
 
 .todo-list .checkbox {
-  -webkit-transform: scale(5);
-      -ms-transform: scale(5);
-          transform: scale(5);
-  margin: 0;
+  -webkit-transform: scale(1.5);
+      -ms-transform: scale(1.5);
+          transform: scale(1.5);
+  margin: 0 10px;
 }

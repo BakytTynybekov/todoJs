@@ -21,7 +21,7 @@ function addItem(e) {
     return `
     <div class="todo-list__item" id=${index}>
     <label>
-            <input type="checkbox" className="checkbox" />
+            <input class='checkbox' type="checkbox" />
             ${item}
           </label>
           
