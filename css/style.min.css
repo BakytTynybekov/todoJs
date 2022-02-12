@@ -1,0 +1,112 @@
+body {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.todo-add button {
+  border: none;
+  background-color: #282c34;
+  height: 30px;
+  width: 100%;
+  margin-bottom: 20px;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+}
+
+.todo-add button:hover {
+  background-color: #adb3c2;
+  -webkit-transform: scale(0.95);
+      -ms-transform: scale(0.95);
+          transform: scale(0.95);
+  color: #282c34;
+  cursor: pointer;
+}
+
+.todo-add input {
+  font-size: 18px;
+  font-family: Arial;
+  -webkit-border-radius: 8px;
+          border-radius: 8px;
+  resize: none;
+  padding: 5px;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  min-height: 50px;
+  width: 400px;
+  margin-bottom: 15px;
+  padding-right: 80px;
+}
+
+.todo-list {
+  padding: 50px;
+  background-color: #282c34 !important;
+  min-height: 400px;
+  width: 400px;
+  font-size: 18px;
+  font-family: Arial;
+  -webkit-border-radius: 8px;
+          border-radius: 8px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: black;
+}
+
+.todo-list h2 {
+  color: white;
+}
+
+.todo-list__item {
+  background: white;
+  border: 1px solid black;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  margin: 20px auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.todo-list__item img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 35px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.todo-list__item img:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.todo-list label {
+  display: block;
+  text-align: start;
+  margin: 20px 20px;
+}
+
+.todo-list .checkbox {
+  -webkit-transform: scale(5);
+      -ms-transform: scale(5);
+          transform: scale(5);
+  margin: 0 20px;
+}
